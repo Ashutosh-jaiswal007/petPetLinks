@@ -1,0 +1,18 @@
+1. functional component (useState, useEffect, useCallback, usemMemo).
+2. es6. (arrow functin, desurcturing.)
+
+const [count, setCount] = useState({left: 20, right: 20});
+
+useEffect(() => {
+    return () => {abc};
+}, [count])
+
+
+useCallback(() => {
+    abc;
+
+}, [count]);
+
+
+setCount({...count, a: b, c: d})
+
